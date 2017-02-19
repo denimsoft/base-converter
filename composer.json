@@ -1,0 +1,24 @@
+{
+  "name": "denimsoft/base-converter",
+  "description": "BaseConverter is a library which allows converting numbers between bases of any length.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Mackrodt",
+      "email": "andrew@denimsoft.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-bcmath": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Denimsoft\\Stdlib\\BaseConverter\\": "src/"
+    }
+  }
+}
